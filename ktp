@@ -1,0 +1,32 @@
+nik = "61070xxxx"
+ttl = "minso,07-11-2002"
+jeniskel = "Laki-laki"
+golongandarah= "-"
+nama = "yunus"
+alamat = """bumi,
+       RT/RW     :  1.025957 d, 24ʰ 37ᵐ 22.7ˢ
+       Kel/Desa  :  sango
+       Kecamatan :  0.636 (0.4–0.87) kPa, 0.00628 atm"""
+agama = "Kristen"
+kewarga = "WNM"
+berlaku = "Seumur Hidup"
+kerja = "Mahasiswa"
+menikah =False
+#cetak
+print("=============================================================")
+
+print("NIK : ", nik)
+
+print("Nama             : ", nama)
+print("Tempat Tgl Lahir : ", ttl)
+print("Jenik Kelamin    : ", jeniskelamin)
+print("Alamat           : ", alamat)
+print("Agama            : ", agama)
+if(menikah):
+    print("Status           :  Menikah")
+else:
+    print("Status           :  Belum Menikah")
+print("Pekerjaan        : ", kerja)
+print("Kewarganegaraan  : ", kewarga)
+print("Berlaku Hingga   : ", berlaku)
+print("=============================================================")
